@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 int main(){
   int number = 75
   if (number % 15 ==0){
