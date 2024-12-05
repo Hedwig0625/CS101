@@ -13,5 +13,5 @@ int main(){
   else {
     printf("%d,number");
   }
-  return 0
+  return 0;
 }
