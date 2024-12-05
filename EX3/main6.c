@@ -5,7 +5,9 @@ int main(){
     printf("$70");
   }
   else{
-    int fee=((
-    printf(
+    int fee=(distance-1500+99)/100);
+    int total=(fee+70) 
+    printf("$ %d",toatl);
   }
+  return 0
 }
