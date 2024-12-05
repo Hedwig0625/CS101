@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 int main(){
   int year=234543
   if(year % 400 ==0 || year % 4 == 0 && year % 100 !==0){
