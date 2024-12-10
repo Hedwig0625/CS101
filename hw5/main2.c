@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){ 
-  int n=50;//算幾次
+  int n=10000;//算幾次
   double pi=0.0;//pi的累加結果
   int sign=1;//控制正負
   
