@@ -31,7 +31,7 @@ else if{
     printf("$%d",fee);
   }
   else{
-    printf("$%d",);
+    printf("$%d",min-30);
   }
 }
 else(min >=240){
