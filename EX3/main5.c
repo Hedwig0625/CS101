@@ -30,7 +30,7 @@ else if{
     int fee=((i/30)+1)*30;
     printf("$%d",fee);
   }
-  else{
+  else{//////剛好為30倍數時，每一分鐘一塊but前30分鐘免費
     printf("$%d",min-30);
   }
 }
