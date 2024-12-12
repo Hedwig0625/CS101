@@ -4,7 +4,7 @@ int main(){
   int sign=0
   long ipi=0
   int x=0
-  for(int i=3,i<10000000,i+=2){
+  for(int i=3;i<10000000;i+=2){
     if (sign ==0){
     sign++;
     pi-=(4.0)/i;
