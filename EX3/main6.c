@@ -17,8 +17,8 @@ int main(){
 ///////老師ver
 else{
     int fee=distance-1500
-    if (n%100){
-      
+    if (fee%100){/////滿100整則為0,
+      int h=
     }
     printf("$ %d",toatl);
   }
