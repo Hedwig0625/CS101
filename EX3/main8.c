@@ -22,3 +22,21 @@ int main(){
   printf("%d",hundred+ten+one)
   return 0;
 }
+
+
+
+
+
+///////老師ver
+//////不用分別看xyz因為只有x有可能為負數
+ int x=3
+  int y=5
+  int z=4
+  if (x>0){
+   int sum=x*100+y*10+z
+   printf("%d",sum);
+  }
+  else{
+    int sum=x*-100+y*10+z
+   printf("%d",sum);
+  }
