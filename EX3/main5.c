@@ -16,3 +16,25 @@ int main(){
     }
   return 0;
 }
+
+
+
+
+//////老師ver
+////最後一個else
+if (min <=30){
+    printf("free to go");
+  }
+else if{
+  if (min%30){/////有餘數的話是true, if成立
+    int fee=((i/30)+1)*30;
+    printf("$%d",fee);
+  }
+  else{
+    printf("$%d",);
+  }
+}
+else(min >=240){
+    printf("$240");
+}
+}
