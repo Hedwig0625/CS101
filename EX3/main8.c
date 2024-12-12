@@ -22,6 +22,7 @@ int main(){
   printf("%d",hundred+ten+one)
   return 0;
 }
+/////錯的，要有包含負數
 
 
 
@@ -38,5 +39,5 @@ int main(){
   }
   else{
     int sum=x*-100+y*10+z
-   printf("%d",sum);
+   printf("%d",sum*-1);
   }
