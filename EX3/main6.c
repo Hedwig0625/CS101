@@ -11,3 +11,14 @@ int main(){
   }
   return 0
 }
+
+
+
+///////老師ver
+else{
+    int fee=distance-1500
+    if (n%100){
+      
+    }
+    printf("$ %d",toatl);
+  }
