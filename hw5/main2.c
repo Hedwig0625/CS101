@@ -23,11 +23,11 @@ long ipi=0
 int x =0
 
 for(int i =3,i<1000000;i+=2){////第一項是除一，免算，直接從3開始
-  if (flag == 0){////flag控制正負,1負0正
+  if (flag == 0){////flag控制正負,1負0正 ///////////flag=0（此項正的)
     pi+=(4.0/i);
     flag++;
   }
-  else{
+  else{     //////flag=1（此項負的）
     pi -=(4.0)/i;
     flag--;
   }
