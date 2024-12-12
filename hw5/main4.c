@@ -8,7 +8,7 @@ int main(){
   else if(10<=i && i<100){//十位數
     int tens=(i/10);
     int ones=(i%10);
-    int result= ones*1000 + tens*10;//個位數字調到千位
+    long result= ones*1000 + tens*10;//個位數字調到千位
     printf("%04d\n",result);
   }
  else if (i>=100 && i<1000){
