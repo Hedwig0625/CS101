@@ -11,6 +11,8 @@ int main(){
   printf("PI=%.5f\n",pi);
   return 0;
 }
+//////錯的，不能直接用浮點數算，很容易不準
+
 
 
 
